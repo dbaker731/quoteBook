@@ -9,7 +9,8 @@
 
     <input type="text" placeholder="Add a new quote!" ng-model="newQuoteText">
     <input type="text" placeholder="Add the author!" ng-model="newQuoteAuthor">
-    <button ng-click="addQuote( newQuoteText, newQuoteAuthor )">Add Quote</button>
+    <button ng-click="addQuote()">Add Quote</button>
+    <button ng-click="clearCookies()">Clear Cookies</button>
 
     <div>
       <input type="text" placeholder="Filter by author" ng-model="filterQuotes.author">
@@ -24,6 +25,7 @@
     <!-- {{ myCookieVal }}
     <input type="text" ng-model="cookieVal">
     <button ng-click="setCookie(cookieVal)">Set Cookie</button> -->
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-cookies.min.js"></script>
