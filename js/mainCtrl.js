@@ -20,8 +20,8 @@ angular.module( 'quoteBook' ).controller( 'mainCtrl', function( $scope, dataServ
     dataService.removeData( deleteText );
   };
 
-  $scope.clearCookies = function(){
-
-  };
+  // $scope.clearCookies = function(){
+  //
+  // };
 
 });

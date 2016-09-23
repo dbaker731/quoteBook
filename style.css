@@ -1,0 +1,83 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.page-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.add-quote-wrapper {
+  width: 99%;
+  height: 100px;
+  margin: 0 auto;
+  padding: 25px 50px;
+  box-sizing: border-box;
+  position: relative;
+  border-bottom-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+  box-shadow: 10px 10px 5px #777;
+  font-family: "Times New Roman";
+
+}
+
+.quote-wrapper {
+  width: 99%;
+  height: auto;
+  margin: 0 auto;
+  padding: 25px 50px;
+  box-sizing: border-box;
+  position: relative;
+  border-bottom-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+  box-shadow: 10px 10px 5px #777;
+  font-family: "Times New Roman";
+}
+
+.quote-marks{
+  font-size: 2em;
+}
+
+.text {
+  font-size: 3em;
+}
+
+.author {
+  font-size: 3em;
+  color: #888;
+}
+
+.btn-delete{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  border: 0;
+  background: black;
+}
+
+.btn-add-quote {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  border: 0;
+  background: black;
+}
+
+.add-text {
+  border: 0;
+  font-size: 2em;
+  width: 250px;
+}
+
+.add-author{
+  border: 0;
+  font-size: 2em;
+  padding-left: 200px;
+}
