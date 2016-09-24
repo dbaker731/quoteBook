@@ -76,8 +76,16 @@ body{
   width: 250px;
 }
 
+.add-text:focus {
+  outline: none;
+}
+
 .add-author{
   border: 0;
   font-size: 2em;
   padding-left: 200px;
+}
+
+.add-author:focus{
+  outline: none;
 }
